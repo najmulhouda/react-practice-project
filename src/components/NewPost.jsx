@@ -4,7 +4,7 @@ const NewPost = () => {
   return (
     <div>
       <form className={classes.form}>
-        <p>
+        <p className={classes.formLabel}>
           <label htmlFor="body">Text</label>
           <textarea id="body" required rows={3} />
         </p>
